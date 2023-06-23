@@ -105,14 +105,14 @@ check "! test -d $HOME/xyz100xx/uli101xx/tutorials/acp100xx" "The directory path
 
 
 echo "Week2-check-3 Check Completed for: $user" | mail -s "Week2-check-3 Successfully Completed" $user@myseneca.ca  2> /dev/null
-echo "Week2-check-3 Completed for: $user" | mail -s Week2-check-3 Successfully Completed" $user@senecacollege.ca  2> /dev/null
+echo "Week2-check-3 Completed for: $user" | mail -s "Week2-check-3 Successfully Completed" $user@senecacollege.ca  2> /dev/null
 
 
 echo
 echo "Congratulations!"
 echo
 echo  "You have passed the week2-check-3 script"
-echo  "This means that your directory structure has been correctly removed"
+echo  "This means that your directory structure has been correctly removed :)"
 echo
 echo  "An email has been sent to your Seneca College email account"
 echo  "for confirmation, keep this email for proof until the end of"
