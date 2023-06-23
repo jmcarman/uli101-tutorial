@@ -94,8 +94,8 @@ echo -n "Checking \"uli101xx/samples\" directory has been created in your home d
 check "test -d $HOME/uli101xx/samples" "The directory pathname \"$HOME/uli101xx/samples\" does NOT exist. Check if you mispelled directory name, or used uppercase letters by mistake. Create the directory \"uli101xx/samples\" in your home directory and re-run this checking script"
 
 
-echo "Week2-check-1 Check Completed for: $user" | mail -s "Week2-check-1 Successfully Completed" $USER@myseneca.ca  2> /dev/null
-echo "Week2-check-1 Completed for: $user" | mail -s "Week2-check-1 Successfully Completed" $USER@senecacollege.ca  2> /dev/null
+echo "Week2-check-1 Check Completed for: $user on $(date)" | mail -s "Week2-check-1 Successfully Completed" $USER@myseneca.ca  2> /dev/null
+echo "Week2-check-1 Completed for: $user on $(date)" | mail -s "Week2-check-1 Successfully Completed" $USER@senecacollege.ca  2> /dev/null
 
 echo
 echo "Congratulations!"
