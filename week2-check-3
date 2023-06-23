@@ -112,7 +112,7 @@ echo
 echo "Congratulations!"
 echo
 echo  "You have passed the week2-check-3 script"
-echo  "This means that your directory structure has been correctly removed :)"
+echo  "This means that your directory structure has been correctly removed :\)"
 echo
 echo  "An email has been sent to your Seneca College email account"
 echo  "for confirmation, keep this email for proof until the end of"
